@@ -12,17 +12,23 @@
     <meta property="og:description" content="hi, I'm Ismail, a" />
     <meta property="og:site_name" content="Ismail Edaraz - Web Developer" />
     <meta property="og:image" content="https://websitedemos.net/web-developer-portfolio-04/wp-content/uploads/sites/1166/2023/02/work-07.jpg" />
-
-    <link rel="alternate" type="application/rss+xml" title="Ismail Edaraz - Web Developer &raquo; Feed" href="https://websitedemos.net/web-developer-portfolio-04/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="Ismail Edaraz - Web Developer &raquo; Comments Feed" href="https://websitedemos.net/web-developer-portfolio-04/comments/feed/" />
-    <link rel='stylesheet' id='astra-theme-css-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.0.2' media='all' />
+    <link rel="alternate" type="application/rss+xml" title="Ismail Edaraz - Web Developer &raquo; Feed"
+        href="https://websitedemos.net/web-developer-portfolio-04/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Ismail Edaraz - Web Developer &raquo; Comments Feed"
+        href="https://websitedemos.net/web-developer-portfolio-04/comments/feed/" />
+    <link rel='stylesheet' id='astra-theme-css-css'
+        href='https://websitedemos.net/web-developer-portfolio-04/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.0.2'
+        media='all' />
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/google-font.css') }}">
+
     <link rel='stylesheet' id='wp-block-library-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
     <link rel='stylesheet' id='elementor-icons-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.17.0' media='all' />
     <link rel='stylesheet' id='elementor-frontend-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.10.2' media='all' />
+    <link rel='stylesheet' id='elementor-post-5-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/uploads/sites/1166/elementor/css/post-5.css?ver=1675322247' media='all' />
     <link rel='stylesheet' id='astra-sites-showcase-blocks-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/astra-sites-showcase/assets/css/blocks.css?ver=2.2.9' media='all' />
     <link rel='stylesheet' id='uael-frontend-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.36.14' media='all' />
+    <link rel='stylesheet' id='elementor-post-10-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/uploads/sites/1166/elementor/css/post-10.css?ver=1675923409' media='all' />
     <link rel="stylesheet" href="https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
 </head>
 
@@ -179,24 +185,34 @@
                             <div class="entry-content clear" itemprop="text">
                                 <div data-elementor-type="wp-page" data-elementor-id="10"
                                     class="elementor elementor-10">
-                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-546f3f82 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default" data-id="546f3f82" data-element_type="section">
+                                    <section
+                                        class="elementor-section elementor-top-section elementor-element elementor-element-546f3f82 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default"
+                                        data-id="546f3f82" data-element_type="section">
                                         <div class="elementor-container elementor-column-gap-no">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-563ade9c" data-id="563ade9c" data-element_type="column">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-563ade9c"
+                                                data-id="563ade9c" data-element_type="column">
                                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <section class="elementor-section elementor-inner-section elementor-element  elementor-element-711efbbb elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="711efbbb" data-element_type="section">
+                                                    <section
+                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-711efbbb elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                                                        data-id="711efbbb" data-element_type="section">
                                                         <div class="elementor-container elementor-column-gap-no">
-                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5d1c6eb2" data-id="5d1c6eb2" data-element_type="column">
-                                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                                    <div class="elementor-element elementor-element-3c7ef371 elementor-widget elementor-widget-heading" data-id="3c7ef371" data-element_type="widget" data-widget_type="heading.default">
+                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5d1c6eb2"
+                                                                data-id="5d1c6eb2" data-element_type="column">
+                                                                <div
+                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-3c7ef371 elementor-widget elementor-widget-heading"
+                                                                        data-id="3c7ef371" data-element_type="widget"
+                                                                        data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
                                                                             <h6 class="elementor-heading-title elementor-size-default">
                                                                                 // hi, I'm Ismail, a...
                                                                             </h6>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="elementor-element elementor-element-537a9e22 uael-show-cursor-yes uael-fancytext-stack-no elementor-widget elementor-widget-uael-fancy-heading" data-id="537a9e22"  data-element_type="widget" data-widget_type="uael-fancy-heading.default">
+                                                                    <div class="elementor-element elementor-element-537a9e22 uael-show-cursor-yes uael-fancytext-stack-no elementor-widget elementor-widget-uael-fancy-heading"
+                                                                        data-id="537a9e22" data-element_type="widget" data-widget_type="uael-fancy-heading.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="uael-module-content uael-fancy-text-node uael-clip-cursor-yes" data-type-speed="120" data-animation="type"  data-back-speed="60" data-start-delay="0" data-back-delay="1200" data-loop="true" data-show-cursor="true" data-cursor-char="|" data-strings="[&quot;_full stack developer&quot;]">
+                                                                            <div class="uael-module-content uael-fancy-text-node uael-clip-cursor-yes" data-type-speed="120" data-animation="type" data-back-speed="60" data-start-delay="0" data-back-delay="1200" data-loop="true" data-show-cursor="true" data-cursor-char="|" data-strings="[&quot;_full stack developer&quot;]">
                                                                                 <h1 class="uael-fancy-text-wrap uael-fancy-text-type">
                                                                                     <span class="uael-fancy-heading uael-fancy-text-prefix">{"</span>
                                                                                     <span class="uael-fancy-stack">
@@ -205,7 +221,8 @@
                                                                                             <span class="uael-text-holder">.</span>
                                                                                         </span>
                                                                                     </span>
-                                                                                    <span class="uael-fancy-heading uael-fancy-text-suffix">"} </span>
+                                                                                    <span class="uael-fancy-heading uael-fancy-text-suffix">"}
+                                                                                    </span>
                                                                                 </h1>
                                                                             </div>
                                                                         </div>
@@ -213,8 +230,7 @@
                                                                     <div class="elementor-element elementor-element-14d3e48b e-transform elementor-widget elementor-widget-heading" data-id="14d3e48b" data-element_type="widget" data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
                                                                             <h5 class="elementor-heading-title elementor-size-default">
-                                                                                <a href="#about">==></a>
-                                                                            </h5>
+                                                                                <a href="#about">==></a></h5>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -224,7 +240,7 @@
                                                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-3243b33 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default" data-id="3243b33" data-element_type="section">
                                                         <div class="elementor-background-overlay"></div>
                                                         <div class="elementor-container elementor-column-gap-no">
-                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-117df43" data-id="117df43"  data-element_type="column">
+                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-117df43" data-id="117df43" data-element_type="column">
                                                                 <div class="elementor-widget-wrap">
                                                                 </div>
                                                             </div>
@@ -239,21 +255,24 @@
                                         data-id="17f9f8fe" data-element_type="section">
                                         <div class="elementor-background-overlay"></div>
                                         <div class="elementor-container elementor-column-gap-no">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5b43109a" data-id="5b43109a" data-element_type="column">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5b43109a"
+                                                data-id="5b43109a" data-element_type="column">
                                                 <div class="elementor-widget-wrap elementor-element-populated">
                                                     <div class="elementor-element elementor-element-51ce01d1 elementor-widget elementor-widget-menu-anchor" data-id="51ce01d1" data-element_type="widget" data-widget_type="menu-anchor.default">
                                                         <div class="elementor-widget-container">
                                                             <div id="about" class="elementor-menu-anchor"></div>
                                                         </div>
                                                     </div>
-                                                    <div class="elementor-element elementor-element-5b4f4612 elementor-widget elementor-widget-heading" data-id="5b4f4612" data-element_type="widget"
+                                                    <div class="elementor-element elementor-element-5b4f4612 elementor-widget elementor-widget-heading"
+                                                        data-id="5b4f4612" data-element_type="widget"
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h5 class="elementor-heading-title elementor-size-default">{/}</h5>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-7b6d3cca elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                                        data-id="7b6d3cca" data-element_type="widget" data-widget_type="icon-box.default">
+                                                        data-id="7b6d3cca" data-element_type="widget"
+                                                        data-widget_type="icon-box.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-icon-box-wrapper">
                                                                 <div class="elementor-icon-box-content">
@@ -269,12 +288,16 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <section class="elementor-section elementor-inner-section elementor-element elementor-element-2e9556af elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                    <section
+                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-2e9556af elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                                         data-id="2e9556af" data-element_type="section">
                                                         <div class="elementor-container elementor-column-gap-no">
-                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-767ef4b" data-id="767ef4b" data-element_type="column">
-                                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                                    <div class="elementor-element elementor-element-4d8c8d79 elementor-widget elementor-widget-heading" data-id="4d8c8d79" data-element_type="widget"
+                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-767ef4b"
+                                                                data-id="767ef4b" data-element_type="column">
+                                                                <div
+                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-4d8c8d79 elementor-widget elementor-widget-heading"
+                                                                        data-id="4d8c8d79" data-element_type="widget"
                                                                         data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
                                                                             <h4 class="elementor-heading-title elementor-size-default">
@@ -287,7 +310,8 @@
                                                             <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57846560"
                                                                 data-id="57846560" data-element_type="column">
                                                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                                                    <div class="elementor-element elementor-element-a2deaa0 elementor-widget elementor-widget-text-editor" data-id="a2deaa0" data-element_type="widget"
+                                                                    <div class="elementor-element elementor-element-a2deaa0 elementor-widget elementor-widget-text-editor"
+                                                                        data-id="a2deaa0" data-element_type="widget"
                                                                         data-widget_type="text-editor.default">
                                                                         <div class="elementor-widget-container">
                                                                             <p>&#8230;curabitur sit amet luctus tortor,
@@ -310,7 +334,9 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    <div class="elementor-element elementor-element-3761229f elementor-widget elementor-widget-button" data-id="3761229f" data-element_type="widget" data-widget_type="button.default">
+                                                    <div class="elementor-element elementor-element-3761229f elementor-widget elementor-widget-button"
+                                                        data-id="3761229f" data-element_type="widget"
+                                                        data-widget_type="button.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-button-wrapper">
                                                                 <a href="/_about" class="elementor-button-link elementor-button elementor-size-sm">
@@ -325,17 +351,23 @@
                                             </div>
                                         </div>
                                     </section>
-                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-7a1024ab elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default" data-id="7a1024ab" data-element_type="section">
+                                    <section
+                                        class="elementor-section elementor-top-section elementor-element elementor-element-7a1024ab elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default"
+                                        data-id="7a1024ab" data-element_type="section">
                                         <div class="elementor-container elementor-column-gap-no">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2aa9d497" data-id="2aa9d497" data-element_type="column">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2aa9d497"
+                                                data-id="2aa9d497" data-element_type="column">
                                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-675db548 elementor-widget elementor-widget-heading" data-id="675db548" data-element_type="widget"
+                                                    <div class="elementor-element elementor-element-675db548 elementor-widget elementor-widget-heading"
+                                                        data-id="675db548" data-element_type="widget"
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h5 class="elementor-heading-title elementor-size-default">(!)</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="elementor-element elementor-element-3cc13b2b elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="3cc13b2b" data-element_type="widget" data-widget_type="icon-box.default">
+                                                    <div class="elementor-element elementor-element-3cc13b2b elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                                                        data-id="3cc13b2b" data-element_type="widget"
+                                                        data-widget_type="icon-box.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-icon-box-wrapper">
                                                                 <div class="elementor-icon-box-content">
