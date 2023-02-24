@@ -10,595 +10,23 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Ismail Edaraz - Web Developer" />
     <meta property="og:description" content="hi, I'm Ismail, a" />
-    <meta property="og:site_name" content="Web Developer Portfolio" />
+    <meta property="og:site_name" content="Ismail Edaraz - Web Developer" />
     <meta property="og:image" content="https://websitedemos.net/web-developer-portfolio-04/wp-content/uploads/sites/1166/2023/02/work-07.jpg" />
 
-    <link rel="alternate" type="application/rss+xml" title="Web Developer &raquo; Feed"
-        href="https://websitedemos.net/web-developer-portfolio-04/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="Web Developer &raquo; Comments Feed"
-        href="https://websitedemos.net/web-developer-portfolio-04/comments/feed/" />
-    <link rel='stylesheet' id='astra-theme-css-css'
-        href='https://websitedemos.net/web-developer-portfolio-04/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.0.2'
-        media='all' />
+    <link rel="alternate" type="application/rss+xml" title="Ismail Edaraz - Web Developer &raquo; Feed" href="https://websitedemos.net/web-developer-portfolio-04/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Ismail Edaraz - Web Developer &raquo; Comments Feed" href="https://websitedemos.net/web-developer-portfolio-04/comments/feed/" />
+    <link rel='stylesheet' id='astra-theme-css-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.0.2' media='all' />
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/google-font.css') }}">
-    <style id="astra-google-fonts-css" media="all">
-        /* vietnamese */
-        @font-face {
-            font-family: 'VT323';
-            font-style: normal;
-            font-weight: 400;
-            font-display: fallback;
-            src: url(/fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2isQFJXGdg.woff2) format('woff2');
-            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-        }
-
-        /* latin-ext */
-        @font-face {
-            font-family: 'VT323';
-            font-style: normal;
-            font-weight: 400;
-            font-display: fallback;
-            src: url(/fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2isRFJXGdg.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-
-        /* latin */
-        @font-face {
-            font-family: 'VT323';
-            font-style: normal;
-            font-weight: 400;
-            font-display: fallback;
-            src: url(/fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2isfFJU.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-    </style>
-    <link rel='stylesheet' id='wp-block-library-css'
-        href='https://websitedemos.net/web-developer-portfolio-04/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1'
-        media='all' />
-    <style id='global-styles-inline-css'>
-        body {
-            --wp--preset--color--black: #000000;
-            --wp--preset--color--cyan-bluish-gray: #abb8c3;
-            --wp--preset--color--white: #ffffff;
-            --wp--preset--color--pale-pink: #f78da7;
-            --wp--preset--color--vivid-red: #cf2e2e;
-            --wp--preset--color--luminous-vivid-orange: #ff6900;
-            --wp--preset--color--luminous-vivid-amber: #fcb900;
-            --wp--preset--color--light-green-cyan: #7bdcb5;
-            --wp--preset--color--vivid-green-cyan: #00d084;
-            --wp--preset--color--pale-cyan-blue: #8ed1fc;
-            --wp--preset--color--vivid-cyan-blue: #0693e3;
-            --wp--preset--color--vivid-purple: #9b51e0;
-            --wp--preset--color--ast-global-color-0: var(--ast-global-color-0);
-            --wp--preset--color--ast-global-color-1: var(--ast-global-color-1);
-            --wp--preset--color--ast-global-color-2: var(--ast-global-color-2);
-            --wp--preset--color--ast-global-color-3: var(--ast-global-color-3);
-            --wp--preset--color--ast-global-color-4: var(--ast-global-color-4);
-            --wp--preset--color--ast-global-color-5: var(--ast-global-color-5);
-            --wp--preset--color--ast-global-color-6: var(--ast-global-color-6);
-            --wp--preset--color--ast-global-color-7: var(--ast-global-color-7);
-            --wp--preset--color--ast-global-color-8: var(--ast-global-color-8);
-            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
-            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
-            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
-            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
-            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
-            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
-            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
-            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
-            --wp--preset--font-size--small: 13px;
-            --wp--preset--font-size--medium: 20px;
-            --wp--preset--font-size--large: 36px;
-            --wp--preset--font-size--x-large: 42px;
-            --wp--preset--spacing--20: 0.44rem;
-            --wp--preset--spacing--30: 0.67rem;
-            --wp--preset--spacing--40: 1rem;
-            --wp--preset--spacing--50: 1.5rem;
-            --wp--preset--spacing--60: 2.25rem;
-            --wp--preset--spacing--70: 3.38rem;
-            --wp--preset--spacing--80: 5.06rem;
-        }
-
-        body {
-            margin: 0;
-            --wp--style--global--content-size: var(--wp--custom--ast-content-width-size);
-            --wp--style--global--wide-size: var(--wp--custom--ast-wide-width-size);
-        }
-
-        .wp-site-blocks>.alignleft {
-            float: left;
-            margin-right: 2em;
-        }
-
-        .wp-site-blocks>.alignright {
-            float: right;
-            margin-left: 2em;
-        }
-
-        .wp-site-blocks>.aligncenter {
-            justify-content: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .wp-site-blocks>* {
-            margin-block-start: 0;
-            margin-block-end: 0;
-        }
-
-        .wp-site-blocks>*+* {
-            margin-block-start: 24px;
-        }
-
-        body {
-            --wp--style--block-gap: 24px;
-        }
-
-        body .is-layout-flow>* {
-            margin-block-start: 0;
-            margin-block-end: 0;
-        }
-
-        body .is-layout-flow>*+* {
-            margin-block-start: 24px;
-            margin-block-end: 0;
-        }
-
-        body .is-layout-constrained>* {
-            margin-block-start: 0;
-            margin-block-end: 0;
-        }
-
-        body .is-layout-constrained>*+* {
-            margin-block-start: 24px;
-            margin-block-end: 0;
-        }
-
-        body .is-layout-flex {
-            gap: 24px;
-        }
-
-        body .is-layout-flow>.alignleft {
-            float: left;
-            margin-inline-start: 0;
-            margin-inline-end: 2em;
-        }
-
-        body .is-layout-flow>.alignright {
-            float: right;
-            margin-inline-start: 2em;
-            margin-inline-end: 0;
-        }
-
-        body .is-layout-flow>.aligncenter {
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained>.alignleft {
-            float: left;
-            margin-inline-start: 0;
-            margin-inline-end: 2em;
-        }
-
-        body .is-layout-constrained>.alignright {
-            float: right;
-            margin-inline-start: 2em;
-            margin-inline-end: 0;
-        }
-
-        body .is-layout-constrained>.aligncenter {
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-            max-width: var(--wp--style--global--content-size);
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained>.alignwide {
-            max-width: var(--wp--style--global--wide-size);
-        }
-
-        body .is-layout-flex {
-            display: flex;
-        }
-
-        body .is-layout-flex {
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        body .is-layout-flex>* {
-            margin: 0;
-        }
-
-        body {
-            padding-top: 0px;
-            padding-right: 0px;
-            padding-bottom: 0px;
-            padding-left: 0px;
-        }
-
-        a:where(:not(.wp-element-button)) {
-            text-decoration: none;
-        }
-
-        .wp-element-button,
-        .wp-block-button__link {
-            background-color: #32373c;
-            border-width: 0;
-            color: #fff;
-            font-family: inherit;
-            font-size: inherit;
-            line-height: inherit;
-            padding: calc(0.667em + 2px) calc(1.333em + 2px);
-            text-decoration: none;
-        }
-
-        .has-black-color {
-            color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-color {
-            color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-color {
-            color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-color {
-            color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-color {
-            color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-color {
-            color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-color {
-            color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-color {
-            color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-color {
-            color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-color {
-            color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-color {
-            color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-color {
-            color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-ast-global-color-0-color {
-            color: var(--wp--preset--color--ast-global-color-0) !important;
-        }
-
-        .has-ast-global-color-1-color {
-            color: var(--wp--preset--color--ast-global-color-1) !important;
-        }
-
-        .has-ast-global-color-2-color {
-            color: var(--wp--preset--color--ast-global-color-2) !important;
-        }
-
-        .has-ast-global-color-3-color {
-            color: var(--wp--preset--color--ast-global-color-3) !important;
-        }
-
-        .has-ast-global-color-4-color {
-            color: var(--wp--preset--color--ast-global-color-4) !important;
-        }
-
-        .has-ast-global-color-5-color {
-            color: var(--wp--preset--color--ast-global-color-5) !important;
-        }
-
-        .has-ast-global-color-6-color {
-            color: var(--wp--preset--color--ast-global-color-6) !important;
-        }
-
-        .has-ast-global-color-7-color {
-            color: var(--wp--preset--color--ast-global-color-7) !important;
-        }
-
-        .has-ast-global-color-8-color {
-            color: var(--wp--preset--color--ast-global-color-8) !important;
-        }
-
-        .has-black-background-color {
-            background-color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-background-color {
-            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-background-color {
-            background-color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-background-color {
-            background-color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-background-color {
-            background-color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-background-color {
-            background-color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-background-color {
-            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-background-color {
-            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-background-color {
-            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-background-color {
-            background-color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-ast-global-color-0-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-0) !important;
-        }
-
-        .has-ast-global-color-1-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-1) !important;
-        }
-
-        .has-ast-global-color-2-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-2) !important;
-        }
-
-        .has-ast-global-color-3-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-3) !important;
-        }
-
-        .has-ast-global-color-4-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-4) !important;
-        }
-
-        .has-ast-global-color-5-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-5) !important;
-        }
-
-        .has-ast-global-color-6-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-6) !important;
-        }
-
-        .has-ast-global-color-7-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-7) !important;
-        }
-
-        .has-ast-global-color-8-background-color {
-            background-color: var(--wp--preset--color--ast-global-color-8) !important;
-        }
-
-        .has-black-border-color {
-            border-color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-border-color {
-            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-border-color {
-            border-color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-border-color {
-            border-color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-border-color {
-            border-color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-border-color {
-            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-border-color {
-            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-border-color {
-            border-color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-border-color {
-            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-border-color {
-            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-border-color {
-            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-border-color {
-            border-color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-ast-global-color-0-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-0) !important;
-        }
-
-        .has-ast-global-color-1-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-1) !important;
-        }
-
-        .has-ast-global-color-2-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-2) !important;
-        }
-
-        .has-ast-global-color-3-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-3) !important;
-        }
-
-        .has-ast-global-color-4-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-4) !important;
-        }
-
-        .has-ast-global-color-5-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-5) !important;
-        }
-
-        .has-ast-global-color-6-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-6) !important;
-        }
-
-        .has-ast-global-color-7-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-7) !important;
-        }
-
-        .has-ast-global-color-8-border-color {
-            border-color: var(--wp--preset--color--ast-global-color-8) !important;
-        }
-
-        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-        }
-
-        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-        }
-
-        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-        }
-
-        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-        }
-
-        .has-cool-to-warm-spectrum-gradient-background {
-            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-        }
-
-        .has-blush-light-purple-gradient-background {
-            background: var(--wp--preset--gradient--blush-light-purple) !important;
-        }
-
-        .has-blush-bordeaux-gradient-background {
-            background: var(--wp--preset--gradient--blush-bordeaux) !important;
-        }
-
-        .has-luminous-dusk-gradient-background {
-            background: var(--wp--preset--gradient--luminous-dusk) !important;
-        }
-
-        .has-pale-ocean-gradient-background {
-            background: var(--wp--preset--gradient--pale-ocean) !important;
-        }
-
-        .has-electric-grass-gradient-background {
-            background: var(--wp--preset--gradient--electric-grass) !important;
-        }
-
-        .has-midnight-gradient-background {
-            background: var(--wp--preset--gradient--midnight) !important;
-        }
-
-        .has-small-font-size {
-            font-size: var(--wp--preset--font-size--small) !important;
-        }
-
-        .has-medium-font-size {
-            font-size: var(--wp--preset--font-size--medium) !important;
-        }
-
-        .has-large-font-size {
-            font-size: var(--wp--preset--font-size--large) !important;
-        }
-
-        .has-x-large-font-size {
-            font-size: var(--wp--preset--font-size--x-large) !important;
-        }
-
-        .wp-block-navigation a:where(:not(.wp-element-button)) {
-            color: inherit;
-        }
-
-        .wp-block-pullquote {
-            font-size: 1.5em;
-            line-height: 1.6;
-        }
-    </style>
-    <link rel='stylesheet' id='elementor-icons-css'
-        href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.17.0'
-        media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css'
-        href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.10.2'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-5-css'
-        href='https://websitedemos.net/web-developer-portfolio-04/wp-content/uploads/sites/1166/elementor/css/post-5.css?ver=1675322247'
-        media='all' />
-    <link rel='stylesheet' id='astra-sites-showcase-blocks-css'
-        href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/astra-sites-showcase/assets/css/blocks.css?ver=2.2.9'
-        media='all' />
-    <link rel='stylesheet' id='uael-frontend-css'
-        href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.36.14'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-10-css'
-        href='https://websitedemos.net/web-developer-portfolio-04/wp-content/uploads/sites/1166/elementor/css/post-10.css?ver=1675923409'
-        media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.17.0' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.10.2' media='all' />
+    <link rel='stylesheet' id='astra-sites-showcase-blocks-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/astra-sites-showcase/assets/css/blocks.css?ver=2.2.9' media='all' />
+    <link rel='stylesheet' id='uael-frontend-css' href='https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.36.14' media='all' />
     <link rel="stylesheet" href="https://websitedemos.net/web-developer-portfolio-04/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
 </head>
 
-<body itemscope='itemscope'
-    class="home page-template-default page page-id-10 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-4.0.2 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header ast-full-width-primary-header elementor-default elementor-kit-5 elementor-page elementor-page-10">
+<body class="home page-template-default page page-id-10 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-4.0.2 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header ast-full-width-primary-header elementor-default elementor-kit-5 elementor-page elementor-page-10">
 
     <div class="hfeed site" id="page">
         <header class="site-header header-main-layout-1 ast-primary-menu-enabled ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemscope="itemscope" itemid="#masthead">
@@ -751,34 +179,24 @@
                             <div class="entry-content clear" itemprop="text">
                                 <div data-elementor-type="wp-page" data-elementor-id="10"
                                     class="elementor elementor-10">
-                                    <section
-                                        class="elementor-section elementor-top-section elementor-element elementor-element-546f3f82 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default"
-                                        data-id="546f3f82" data-element_type="section">
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-546f3f82 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default" data-id="546f3f82" data-element_type="section">
                                         <div class="elementor-container elementor-column-gap-no">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-563ade9c"
-                                                data-id="563ade9c" data-element_type="column">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-563ade9c" data-id="563ade9c" data-element_type="column">
                                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <section
-                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-711efbbb elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                                                        data-id="711efbbb" data-element_type="section">
+                                                    <section class="elementor-section elementor-inner-section elementor-element  elementor-element-711efbbb elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="711efbbb" data-element_type="section">
                                                         <div class="elementor-container elementor-column-gap-no">
-                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5d1c6eb2"
-                                                                data-id="5d1c6eb2" data-element_type="column">
-                                                                <div
-                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                    <div class="elementor-element elementor-element-3c7ef371 elementor-widget elementor-widget-heading"
-                                                                        data-id="3c7ef371" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
+                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5d1c6eb2" data-id="5d1c6eb2" data-element_type="column">
+                                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-3c7ef371 elementor-widget elementor-widget-heading" data-id="3c7ef371" data-element_type="widget" data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
                                                                             <h6 class="elementor-heading-title elementor-size-default">
                                                                                 // hi, I'm Ismail, a...
                                                                             </h6>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="elementor-element elementor-element-537a9e22 uael-show-cursor-yes uael-fancytext-stack-no elementor-widget elementor-widget-uael-fancy-heading"
-                                                                        data-id="537a9e22" data-element_type="widget" data-widget_type="uael-fancy-heading.default">
+                                                                    <div class="elementor-element elementor-element-537a9e22 uael-show-cursor-yes uael-fancytext-stack-no elementor-widget elementor-widget-uael-fancy-heading" data-id="537a9e22"  data-element_type="widget" data-widget_type="uael-fancy-heading.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="uael-module-content uael-fancy-text-node uael-clip-cursor-yes" data-type-speed="120" data-animation="type" data-back-speed="60" data-start-delay="0" data-back-delay="1200" data-loop="true" data-show-cursor="true" data-cursor-char="|" data-strings="[&quot;_full stack developer&quot;]">
+                                                                            <div class="uael-module-content uael-fancy-text-node uael-clip-cursor-yes" data-type-speed="120" data-animation="type"  data-back-speed="60" data-start-delay="0" data-back-delay="1200" data-loop="true" data-show-cursor="true" data-cursor-char="|" data-strings="[&quot;_full stack developer&quot;]">
                                                                                 <h1 class="uael-fancy-text-wrap uael-fancy-text-type">
                                                                                     <span class="uael-fancy-heading uael-fancy-text-prefix">{"</span>
                                                                                     <span class="uael-fancy-stack">
@@ -787,8 +205,7 @@
                                                                                             <span class="uael-text-holder">.</span>
                                                                                         </span>
                                                                                     </span>
-                                                                                    <span class="uael-fancy-heading uael-fancy-text-suffix">"}
-                                                                                    </span>
+                                                                                    <span class="uael-fancy-heading uael-fancy-text-suffix">"} </span>
                                                                                 </h1>
                                                                             </div>
                                                                         </div>
@@ -796,7 +213,8 @@
                                                                     <div class="elementor-element elementor-element-14d3e48b e-transform elementor-widget elementor-widget-heading" data-id="14d3e48b" data-element_type="widget" data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
                                                                             <h5 class="elementor-heading-title elementor-size-default">
-                                                                                <a href="#about">==></a></h5>
+                                                                                <a href="#about">==></a>
+                                                                            </h5>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -806,7 +224,7 @@
                                                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-3243b33 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default" data-id="3243b33" data-element_type="section">
                                                         <div class="elementor-background-overlay"></div>
                                                         <div class="elementor-container elementor-column-gap-no">
-                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-117df43" data-id="117df43" data-element_type="column">
+                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-117df43" data-id="117df43"  data-element_type="column">
                                                                 <div class="elementor-widget-wrap">
                                                                 </div>
                                                             </div>
@@ -821,24 +239,21 @@
                                         data-id="17f9f8fe" data-element_type="section">
                                         <div class="elementor-background-overlay"></div>
                                         <div class="elementor-container elementor-column-gap-no">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5b43109a"
-                                                data-id="5b43109a" data-element_type="column">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5b43109a" data-id="5b43109a" data-element_type="column">
                                                 <div class="elementor-widget-wrap elementor-element-populated">
                                                     <div class="elementor-element elementor-element-51ce01d1 elementor-widget elementor-widget-menu-anchor" data-id="51ce01d1" data-element_type="widget" data-widget_type="menu-anchor.default">
                                                         <div class="elementor-widget-container">
                                                             <div id="about" class="elementor-menu-anchor"></div>
                                                         </div>
                                                     </div>
-                                                    <div class="elementor-element elementor-element-5b4f4612 elementor-widget elementor-widget-heading"
-                                                        data-id="5b4f4612" data-element_type="widget"
+                                                    <div class="elementor-element elementor-element-5b4f4612 elementor-widget elementor-widget-heading" data-id="5b4f4612" data-element_type="widget"
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h5 class="elementor-heading-title elementor-size-default">{/}</h5>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-7b6d3cca elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                                        data-id="7b6d3cca" data-element_type="widget"
-                                                        data-widget_type="icon-box.default">
+                                                        data-id="7b6d3cca" data-element_type="widget" data-widget_type="icon-box.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-icon-box-wrapper">
                                                                 <div class="elementor-icon-box-content">
@@ -854,16 +269,12 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <section
-                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-2e9556af elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                    <section class="elementor-section elementor-inner-section elementor-element elementor-element-2e9556af elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                                         data-id="2e9556af" data-element_type="section">
                                                         <div class="elementor-container elementor-column-gap-no">
-                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-767ef4b"
-                                                                data-id="767ef4b" data-element_type="column">
-                                                                <div
-                                                                    class="elementor-widget-wrap elementor-element-populated">
-                                                                    <div class="elementor-element elementor-element-4d8c8d79 elementor-widget elementor-widget-heading"
-                                                                        data-id="4d8c8d79" data-element_type="widget"
+                                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-767ef4b" data-id="767ef4b" data-element_type="column">
+                                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-4d8c8d79 elementor-widget elementor-widget-heading" data-id="4d8c8d79" data-element_type="widget"
                                                                         data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
                                                                             <h4 class="elementor-heading-title elementor-size-default">
@@ -876,8 +287,7 @@
                                                             <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57846560"
                                                                 data-id="57846560" data-element_type="column">
                                                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                                                    <div class="elementor-element elementor-element-a2deaa0 elementor-widget elementor-widget-text-editor"
-                                                                        data-id="a2deaa0" data-element_type="widget"
+                                                                    <div class="elementor-element elementor-element-a2deaa0 elementor-widget elementor-widget-text-editor" data-id="a2deaa0" data-element_type="widget"
                                                                         data-widget_type="text-editor.default">
                                                                         <div class="elementor-widget-container">
                                                                             <p>&#8230;curabitur sit amet luctus tortor,
@@ -900,9 +310,7 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    <div class="elementor-element elementor-element-3761229f elementor-widget elementor-widget-button"
-                                                        data-id="3761229f" data-element_type="widget"
-                                                        data-widget_type="button.default">
+                                                    <div class="elementor-element elementor-element-3761229f elementor-widget elementor-widget-button" data-id="3761229f" data-element_type="widget" data-widget_type="button.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-button-wrapper">
                                                                 <a href="/_about" class="elementor-button-link elementor-button elementor-size-sm">
@@ -917,23 +325,17 @@
                                             </div>
                                         </div>
                                     </section>
-                                    <section
-                                        class="elementor-section elementor-top-section elementor-element elementor-element-7a1024ab elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default"
-                                        data-id="7a1024ab" data-element_type="section">
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-7a1024ab elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default" data-id="7a1024ab" data-element_type="section">
                                         <div class="elementor-container elementor-column-gap-no">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2aa9d497"
-                                                data-id="2aa9d497" data-element_type="column">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2aa9d497" data-id="2aa9d497" data-element_type="column">
                                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-675db548 elementor-widget elementor-widget-heading"
-                                                        data-id="675db548" data-element_type="widget"
+                                                    <div class="elementor-element elementor-element-675db548 elementor-widget elementor-widget-heading" data-id="675db548" data-element_type="widget"
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h5 class="elementor-heading-title elementor-size-default">(!)</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="elementor-element elementor-element-3cc13b2b elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                                        data-id="3cc13b2b" data-element_type="widget"
-                                                        data-widget_type="icon-box.default">
+                                                    <div class="elementor-element elementor-element-3cc13b2b elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="3cc13b2b" data-element_type="widget" data-widget_type="icon-box.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-icon-box-wrapper">
                                                                 <div class="elementor-icon-box-content">
