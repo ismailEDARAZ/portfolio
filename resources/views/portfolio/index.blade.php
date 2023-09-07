@@ -21,10 +21,14 @@
     
     <style>
         .s-home {
-              background-image: url(/assets/images/hero-home.jpg);
-              background-size: contain;
-              background-repeat: no-repeat;
-              background-position: right;
+            min-height: 400px;
+            height: auto;
+        }
+        .home-content {
+            padding-bottom: 0rem;
+        }
+        .d-none {
+            display: none;
         }
     </style>
 </head>
@@ -39,33 +43,29 @@
     <nav class="header-nav">
         <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
         <div class="header-nav__content">
-            <h3>Transcend Studio</h3>
+            <h3>Menu</h3>
             <ul class="header-nav__list">
-                <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
-                <li><a class="smoothscroll" href="/portfolio" title="works">Works</a></li>
-                <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+                <li class="current"><a class="smoothscroll" href="https://www.ismailedaraz.com" title="home">Home</a></li>
+                <li><a href="https://www.ismailedaraz.com/#about" title="about">About</a></li>
+                <li><a href="https://www.ismailedaraz.com/#services" title="services">Services</a></li>
+                <li><a href="https://www.ismailedaraz.com/portfolio" title="works">Works</a></li>
+                <li><a href="https://www.ismailedaraz.com/#contact" title="contact">Contact</a></li>
+                <li><a href="https://www.ismailedaraz.com/assets/ismail_edaraz.pdf" target="_blank">Resume</a></li>
             </ul>
             <ul class="header-nav__social">
                 <li>
                     <a href="#0">
-                        <img src="{{ asset('assets/images/svg/facebook.svg') }}" alt="" width="25px">
+                        <img src="{{ asset('assets/images/svg/facebook.svg') }}" alt="" width="20px">
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/ismailEDARAZ">
-                        <img src="{{ asset('assets/images/svg/github.svg') }}" alt="" width="25px">
+                    <a href="https://github.com/ismailEDARAZ" target="_blank">
+                        <img src="{{ asset('assets/images/svg/github.svg') }}" alt="" width="20px">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/ismail-edaraz-b7045a137/">
-                        <img src="{{ asset('assets/images/svg/linkedin-in.svg') }}" alt="" width="25px">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wa.me/0678215343">
-                        <img src="{{ asset('assets/images/svg/whatsapp.svg') }}" alt="" width="25px">
+                    <a href="https://www.linkedin.com/in/ismail-edaraz-b7045a137" target="_blank">
+                        <img src="{{ asset('assets/images/svg/linkedin-in.svg') }}" alt="" width="20px">
                     </a>
                 </li>
             </ul>
@@ -76,94 +76,14 @@
     </a>
 </header> 
 
-<section id="home" class="s-home target-section" data-parallax="scroll" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+<section id="home" class="s-home target-section" data-parallax="scroll" data-natural-width=3000 data-natural-height=1000 data-position-y=top>
     <div class="shadow-overlay"></div>
     <div class="home-content">
         <div class="row home-content__main">
             <h1>
-                Hello! I'm Ismail <br>
-                I am a Sr. Full-stack Developer.
+                Portfolio
             </h1>
-            <p>
-                I create stunning digital experiences <br>
-                that will help your business stand out.
-            </p>
         </div> 
-    </div> 
-    <ul class="home-sidelinks">
-        <li><a class="smoothscroll" href="#about">About</a></li>
-        <li><a class="smoothscroll" href="#services">Services</a></li>
-        <li><a href="/portfolio">Works</a></li>
-        <li><a class="smoothscroll" href="#contact">Contact</a></li>
-        <li><a href="https://www.ismailedaraz.com/assets/ismail_edaraz.pdf" target="_blank">Resume</a></li>
-    </ul> 
-    <ul class="home-social">
-        <li class="home-social-title">Follow Me</li>
-        <li>
-            <a href="#0">
-                <img src="{{ asset('assets/images/svg/facebook.svg') }}" alt="" width="25px">
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/ismailEDARAZ">
-                <img src="{{ asset('assets/images/svg/github.svg') }}" alt="" width="25px">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/ismail-edaraz-b7045a137/">
-                <img src="{{ asset('assets/images/svg/linkedin-in.svg') }}" alt="" width="25px">
-            </a>
-        </li>
-        <li>
-            <a href="https://wa.me/0678215343">
-                <img src="{{ asset('assets/images/svg/whatsapp.svg') }}" alt="" width="25px">
-            </a>
-        </li>
-    </ul>  
-</section> 
-
-<section id='services' class="s-services">
-    <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-            <h3 class="subhead"> what i do</h3>
-            <div class="display-1">
-                I have everything you need to launch and grow a successful digital business.
-            </div>
-        </div>
-    </div> 
-    <div class="row" data-aos="fade-up">
-        <div class="col-full">
-            <p class="lead">
-                I pride myself on providing quality services that meet my clients' needs and exceed their expectations. <br/>
-                Contact me today to learn more about how I can help your business succeed.
-            </p>
-        </div>
-    </div> 
-    <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
-        <div class="col-block service-item " data-aos="fade-up">
-            <div class="service-text">
-                <h3 class="h4">Web Development</h3>
-                <p>
-                    I specialize in building custom websites for businesses and organizations of all sizes. I has expertise in a variety of programming languages and frameworks, and I use the latest technologies to ensure that our clients' websites are fast, responsive, and user-friendly.
-                </p>
-            </div>
-        </div>
-        <div class="col-block service-item" data-aos="fade-up">
-            <div class="service-text">
-                <h3 class="h4">Mobile App Development</h3>
-                <p>
-                    I also offer mobile app development services for iOS and Android devices. Whether you need a native app or a cross-platform solution, I have the skills and experience to build the perfect app for your needs.
-                </p>
-            </div>
-        </div>
-        <div class="col-block service-item" data-aos="fade-up">
-            <div class="service-text">
-                <h3 class="h4">E-commerce Development</h3>
-                <p>
-                    If you're looking to sell products or services online, I can help you set up an e-commerce platform that meets your specific requirements. I can integrate payment gateways, shopping carts, and other features to ensure a seamless shopping experience for your customers.
-                </p>
-            </div>
-        </div>
     </div> 
 </section> 
 
@@ -171,16 +91,32 @@
     <div class="row section-header" data-aos="fade-up">
         <div class="col-full">
             <h3 class="subhead">Featured Works</h3>
-            <div class="display-1">
-                These are some of me recent design projects and i are so excited to show them to you.
-            </div>
         </div>
-    </div> 
+    </div>
+    
+    <div class="row" data-aos="fade-up" style="margin-top: 30px;">
+        <div class="col-full">
+            <ul class="portfolio-cat">
+                <li class="@if(!request()->cat || request()->cat == 'all')active @endif">
+                    <a href="/portfolio?cat=all">
+                        All
+                    </a>
+                </li>
+                @foreach (App\Models\Category::all() as $cat)
+                    <li class="@if(request()->cat && request()->cat != 'all' && request()->cat == $cat->id)active @endif">
+                        <a href="/portfolio?cat={{ $cat->id }}">
+                            {{ $cat->name }}
+                        </a>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+    </div>
 
     <div class="row masonry-wrap">
-        <div class="masonry">
+        <div class="masonry" data-aos="fade-up">
             @foreach ($portfolio as $item)
-                <div class="masonry__brick" data-aos="fade-up">
+                <div class="masonry__brick">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
                             <a href="{{ $item->link }}" class="thumb-link" title="Lamp" data-size="1050x700">
@@ -201,9 +137,9 @@
         </div> 
     </div>
 
-    <div class="row">
+    <div class="row d-none">
         <div class="col-full text-center" style="margin-top: 60px;">
-            <a href="/portfolio" class="btn-more">More projects</a>
+            <a href="#" class="btn-more">More projects</a>
         </div>
     </div>
 </section> 
@@ -245,11 +181,6 @@
                 <li>
                     <a href="https://www.linkedin.com/in/ismail-edaraz-b7045a137/">
                         <img src="{{ asset('assets/images/svg/linkedin-in.svg') }}" alt="" width="25px">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wa.me/0678215343">
-                        <img src="{{ asset('assets/images/svg/whatsapp.svg') }}" alt="" width="25px">
                     </a>
                 </li>
             </ul> 

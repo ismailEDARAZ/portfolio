@@ -106,6 +106,7 @@
   font-style: normal;
   font-weight: normal;
 }
+/*
 @font-face {
   font-family: "metropolis-regular";
   src: url("../fonts/metropolis-regular-webfont.woff2")
@@ -114,6 +115,7 @@
   font-style: normal;
   font-weight: normal;
 }
+*/
 @font-face {
   font-family: "metropolis-italic";
   src: url("../fonts/metropolis-regularitalic-webfont.woff2")
@@ -123,6 +125,7 @@
   font-style: normal;
   font-weight: normal;
 }
+/*
 @font-face {
   font-family: "metropolis-light";
   src: url("../fonts/metropolis-light-webfont.woff2") format("woff2"),
@@ -130,6 +133,7 @@
   font-style: normal;
   font-weight: normal;
 }
+*/
 @font-face {
   font-family: "metropolis-light-italic";
   src: url("../fonts/metropolis-lightitalic-webfont.woff2")
