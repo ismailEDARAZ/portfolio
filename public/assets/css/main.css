@@ -1084,7 +1084,7 @@ input::-moz-focus-inner {
 }
 @media only screen and (max-width: 700px) {
   .display-1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1103,7 +1103,7 @@ input::-moz-focus-inner {
 }
 @media only screen and (max-width: 400px) {
   .display-1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -2225,7 +2225,7 @@ html.cl-loaded .home-content__main {
 @media only screen and (max-width: 800px) {
   .s-services {
     padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-bottom: 3rem;
   }
 
   .services-list {
@@ -2245,11 +2245,16 @@ html.cl-loaded .home-content__main {
 }
 @media only screen and (max-width: 400px) {
   .s-services {
-    padding-top: 9.6rem;
+    padding-top: 7rem;
   }
 
   .services-list [class*="col-"]:nth-child(n) {
     padding: 0;
+  }
+
+  .item-folio {
+    height: 220px !important;
+    margin-right: 0px !important;
   }
 }
 
@@ -2260,6 +2265,11 @@ html.cl-loaded .home-content__main {
   background: #ffffff;
   padding: 10rem 0;
   position: relative;
+}
+
+a.btn-more {
+    background: black;
+    padding: 10px 20px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2497,14 +2507,14 @@ html.cl-loaded .home-content__main {
   }
 }
 @media only screen and (max-width: 600px) {
-  
   .masonry__brick {
     width: 100%;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 400px) {
   .s-works {
-    padding: 9.6rem 0 21rem;
+    padding: 3rem 0 8rem;
   }
 
   .masonry-wrap {
@@ -3168,7 +3178,7 @@ html.cl-loaded .home-content__main {
   }
 
   .contact-main {
-    margin-top: 9.6rem;
+    margin-top: 2rem;
   }
 
   .contact-secondary {
@@ -3176,7 +3186,13 @@ html.cl-loaded .home-content__main {
   }
 
   .contact-email {
-    font-size: 2.4rem;
+    font-size: 1.4rem;
+  }
+  .service-text p{
+    font-size: 12px;
+  }
+  p.lead {
+    font-size: 1.6rem;
   }
 
   .contact-number {
@@ -3184,7 +3200,7 @@ html.cl-loaded .home-content__main {
   }
 
   .cl-copyright {
-    margin-top: 9rem;
+    margin-top: 4rem;
     padding: 0;
     text-align: center;
   }

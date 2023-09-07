@@ -191,7 +191,7 @@
     * ---------------------------------------------------- */ 
     var clMasonryFolio = function () {
         
-        var containerBricks = $('.masonry');
+        var containerBricks = $('.masonryy');
 
         containerBricks.imagesLoaded(function () {
             containerBricks.masonry({

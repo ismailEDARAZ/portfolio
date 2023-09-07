@@ -63,7 +63,7 @@
 </header> 
 
 <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="{{ asset('assets/images/hero-bg.webp') }}" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
-<div class="shadow-overlay"></div>
+    <div class="shadow-overlay"></div>
     <div class="home-content">
         <div class="row home-content__main">
             <h1>
@@ -86,27 +86,20 @@
         <li class="home-social-title">Follow Me</li>
         <li>
             <a href="#0">
-                <i class="fab fa-facebook"></i>
-                <span class="home-social-text">Facebook</span>
+                <img src="{{ asset('assets/images/svg/facebook.svg') }}" alt="" width="20px">
             </a>
         </li>
         <li>
             <a href="https://github.com/ismailEDARAZ" target="_blank">
-                <i class="fab fa-twitter"></i>
-                <span class="home-social-text">Github</span>
+                <img src="{{ asset('assets/images/svg/github.svg') }}" alt="" width="20px">
             </a>
         </li>
         <li>
-            <a href="https://ma.linkedin.com/in/ismail-edaraz-b7045a137" target="_blank">
-                <i class="fab fa-linkedin"></i>
-                <span class="home-social-text">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/ismail-edaraz-b7045a137" target="_blank">
+                <img src="{{ asset('assets/images/svg/linkedin-in.svg') }}" alt="" width="20px">
             </a>
         </li>
-    </ul> 
-    <a href="#about" class="home-scroll smoothscroll">
-        <span class="home-scroll__text">Scroll Down</span>
-        <span class="home-scroll__icon"></span>
-    </a> 
+    </ul>  
 </section> 
 
 <section id='services' class="s-services">
@@ -189,7 +182,7 @@
 
     <div class="row">
         <div class="col-full text-center" style="margin-top: 60px;">
-            <a href="#">More projects</a>
+            <a href="#" class="btn-more">More projects</a>
         </div>
     </div>
 </section> 
@@ -199,7 +192,8 @@
         <div class="col-full">
             <h3 class="subhead subhead--light">Contact Me</h3>
             <div class="display-1 display-1--light">
-                Get in touch and let's make something great together. Let's turn your idea on an even greater product.
+                Get in touch and let's make something great together. <br>
+                Let's turn your idea on an even greater product.
             </div>
         </div>
     </div> 
@@ -218,13 +212,19 @@
             <h3 class="subhead subhead--light">Follow Me</h3>
             <ul class="contact-social">
                 <li>
-                    <a href="#0"><i class="fab fa-facebook"></i></a>
+                    <a href="#0">
+                        <img src="{{ asset('assets/images/svg/facebook.svg') }}" alt="" width="25px">
+                    </a>
                 </li>
                 <li>
-                    <a href="#0"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/ismailEDARAZ">
+                        <img src="{{ asset('assets/images/svg/github.svg') }}" alt="" width="25px">
+                    </a>
                 </li>
                 <li>
-                    <a href="#0"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ismail-edaraz-b7045a137/">
+                        <img src="{{ asset('assets/images/svg/linkedin-in.svg') }}" alt="" width="25px">
+                    </a>
                 </li>
             </ul> 
         </div> 
@@ -237,41 +237,6 @@
         </div>
     </div>
 </section> 
-
-<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-    <div class="pswp__bg"></div>
-    <div class="pswp__scroll-wrap">
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button> 
-                <button class="pswp__button pswp__button--share" title="Share"></button> 
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> 
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> 
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div> 
 
     <div id="preloader">
         <div id="loader">
